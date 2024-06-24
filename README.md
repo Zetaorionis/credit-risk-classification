@@ -1,5 +1,3 @@
-
-
 ## Overview of the Analysis
 
 In this Challenge, various techniques will be utilized to train and evaluate a model centered on loan risk. A dataset of historical lending activity from a peer- to peer lending services company will be employed to construct a model capable of identifying the credit worthiness of borrowers. Challenge breakdown:
@@ -11,6 +9,28 @@ In this Challenge, various techniques will be utilized to train and evaluate a m
 * Stages of the modeling: Loading dataset, separating of target and features, splitting data using train_test_split, fitting logistic regression model to the training data, saving prediction in order to evaluate and creating a confusion matrix and classification report.
 * Methods used: logistic Regression.
 
+## Instructions
+
+The instructions for this Challenge are divided into the following subsections:
+* Split the Data into Training and Testing Sets
+* Create a Logistic Regression Model with the Original Data
+* Write a Credit Risk Analysis Report
+
+## Split the Data into Training and Testing Sets
+
+1. Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
+2. Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+3. Split the data into training and testing datasets by using train_test_split.
+
+## Create a Logistic Regression Model with the Original Data
+
+Use knowledge of logistic regression to complete the following steps:
+1. Fit a logistic regression model by using the training data (X_train and y_train).
+2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+3. Evaluate the model’s performance by doing the following:
+   - Generate a confusion matrix.
+   - Print the classification report.
+4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
 
 ## Results
